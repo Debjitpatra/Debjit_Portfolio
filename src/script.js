@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', () => {
 
     const scriptURL = 'https://script.google.com/macros/s/AKfycbz7jZnPRWUOZ9tBKA88ehSoByKEQeZVGvkgQW9DiilEIAMNOJYEpOaxtKTKudRigJRE/exec'
@@ -24,3 +23,11 @@ document.addEventListener('DOMContentLoaded', () => {
             });
     })
 })
+
+function scrollToSection(sectionId) {
+    const section = document.getElementById(sectionId);
+    window.scrollTo({
+        top: section.offsetTop - 50, // 50px offset for space above the section
+        behavior: 'smooth'
+    });
+}

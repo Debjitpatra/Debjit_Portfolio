@@ -1,4 +1,4 @@
-<!DOCTYPE html>helooooooooooooooooooooooooo
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -12,20 +12,29 @@
 
 <body>
 
-    <header class="w-[100wh] h-[680px] bg-[#000435]">
+    <header class="w-[100wh] h-[620px] bg-[#000435]">
 
-        <nav class="w-[100wh] h-[130px] flex items-center px-20 gap-44">
+        <nav
+            class="h-[110px] flex items-center px-16 bg-[#000435] border-b-2 border-b-blue-950 text-white fixed top-0 left-0 w-full shadow-lg z-10">
 
-            <div class=" text-white text-[20px] font-medium hover:text-blue-900">HOME</div>
-            <a href="./aboutMe.html" class="text-white text-[20px] font-medium hover:text-blue-900">ABOUT ME</a>
-            <a href="./project.html"
-                class="cursor-pointer text-white text-[20px] font-medium hover:text-blue-900">PROJECTS</a>
-            <a href="./skill.html" class="text-white text-[20px] font-medium hover:text-blue-900">SKILLS</a>
-            <a href="./form.html" class="text-white text-[20px] font-medium hover:text-blue-900">CONTACT</a>
-
+            <ul class="flex gap-28">
+                <li class="text-[20px] font-medium hover:text-blue-500 transition duration-300 cursor-pointer"
+                    onclick="scrollToSection('home')">HOME</li>
+                <li class="text-[20px] font-medium hover:text-blue-500 transition duration-300 cursor-pointer"
+                    onclick="scrollToSection('aboutme')">ABOUT ME</li>
+                <li class="text-[20px] font-medium hover:text-blue-500 transition duration-300 cursor-pointer"
+                    onclick="scrollToSection('experience')">EXPERIENCE</li>
+                <li class="text-[20px] font-medium hover:text-blue-500 transition duration-300 cursor-pointer"
+                    onclick="scrollToSection('project')">PROJECTS</li>
+                <li class="text-[20px] font-medium hover:text-blue-500 transition duration-300 cursor-pointer"
+                    onclick="scrollToSection('skills')">SKILLS</li>
+                <li class="text-[20px] font-medium hover:text-blue-500 transition duration-300 cursor-pointer"
+                    onclick="scrollToSection('contact')">CONTACT</li>
+            </ul>
         </nav>
 
-        <div class="w-[800px] h-[500px] pt-4 pl-20 ">
+
+        <div id="home" class="w-[800px] h-[500px] pt-36 pl-20">
 
             <h1 class="text-[50px] font-extrabold text-gray-500">I'm a</h1>
 
@@ -34,7 +43,7 @@
 
             <button
                 class="w-[200px] h-[60px] text-white font-semibold  bg-blue-900 hover:bg-blue-700 rounded-lg mt-5 text-[20px]"
-                onclick="location.href='https://drive.google.com/file/d/15IW-NJSp5fR9gq6xQB2FF6mbyIQQ3OLS/view'">Resume
+                onclick="location.href='https://drive.google.com/file/d/1NHVaywaavJSVx12AC0vpa5lpN--NG7AZ/view'">Resume
             </button>
 
         </div>
@@ -42,7 +51,7 @@
     </header>
 
     <!-- About Me  -->
-    <section class="w-[100wh] h-[500px] bg-[#000435] flex ">
+    <section id="aboutme" class="w-[100wh] h-[620px] bg-[#000435] flex pt-16 ">
 
         <div
             class="w-[350px] h-[450px] border-[5px] border-blue-400 rounded-lg ml-[200px] pb-[-10px] shadow-blue-500 shadow-xl  ">
@@ -64,7 +73,7 @@
                     expand my knowledge. I am very hardworking and dedicated when it comes to work.
                 </p>
 
-                <div class="w-[500px] h-[70px]  mt-32 flex gap-10">
+                <div class="w-[500px] h-[70px]  mt-28 flex gap-10">
 
                     <button
                         class="w-[220px] h-[70px] bg-blue-900 hover:bg-blue-700 text-white text-[20px] font-semibold rounded-xl"
@@ -81,8 +90,64 @@
         </div>
     </section>
 
+    <!-- Experience -->
+    <section id="experience" class="w-[100wh] h-[1400px] bg-[#000435] pt-14">
+
+        <h1 class="text-white text-[30px] font-semibold text-center">Experience</h1>
+
+        <div class="w-[750px] h-[1250px] ml-24 mt-6 text-white">
+
+            <h1 class="text-[28px] font-semibold ">Front-End Developer</h1>
+            <h1 class="text-[25px] font-semibold ">Scifor Technology Pvt.Ltd </h1>
+            <p class="text-[18px] font-medium text-gray-500 pt-4">
+                ▶While at Scifor Technology, I contributed to developing innovative software solutions, working with
+                a team of talented professionals. My role involved applying expertise in HTML, CSS, TailwindCss,
+                JavaScript and React to create high-quality software products. I collaborated closely with
+                crossfunctional teams to enhance features, optimise performance, and improve the user experience.
+                I gained valuable experience in problem-solving, technical development, and adapting to emerging
+                trends in the software industry. My time at Scifor Technology significantly enhanced my skills in
+                JavaScript and React.Js and I’m excited to leverage this knowledge in future opportunities.
+            </p>
+
+            <h1 class="text-[28px] font-semibold pt-14 ">WEBSITE DESIGN AND DEVELOPMENT</h1>
+            <h1 class="text-[25px] font-semibold ">Internship Studio Pvt. Ltd. - Internship</h1>
+            <p class="text-[18px] font-medium text-gray-500 pt-4">
+                ▶As a Full Stack Developer at Internship Studio, I am responsible for developing and maintaining both
+                frontend and backend components of web applications. My role involves designing user interfaces,
+                implementing features, writing clean and efficient code, and ensuring the overall functionality and
+                performance of the Web application. I collaborate closely with cross-functional teams to deliver
+                high-quality solutions that meet business requirements and exceed client expectations.
+                Additionally, I stay updated on industry trends and best practices to continuously enhance my skills
+                and contribute to the company's success.
+            </p>
+
+            <h1 class="text-[28px] font-semibold pt-14 ">WEB DEVELOPMENT </h1>
+            <h1 class="text-[25px] font-semibold ">Codeclause Pvt. Ltd. - Internship </h1>
+            <p class="text-[18px] font-medium text-gray-500 pt-4">
+                ▶As a Developer at Codeclause, I am responsible for developing and maintaining front-end
+                components of web applications. My role involves designing user interfaces, implementing
+                features, and writing clean code, of the Web application. Additionally, I stay updated on industry
+                trends and best practices to continuously enhance my skills and contribute to the company's
+                success.
+            </p>
+
+            <h1 class="text-[28px] font-semibold pt-14 ">WEB DEVELOPMENT AND DESIGNING </h1>
+            <h1 class="text-[25px] font-semibold ">OASIS Infobyte Pvt. Ltd. – Internship </h1>
+            <p class="text-[18px] font-medium text-gray-500 pt-4">
+                ▶As a Web Developer at OASIS Infobyte, I am responsible for maintaining the front end of the
+                website. My role involves designing and writing code, for the Website. Additionally, I stay practice to
+                enhance my skills continuously
+            </p>
+
+
+        </div>
+
+    </section>
+
     <!-- Project 1 -->
-    <section class="w-[100wh] h-[620px] bg-[#000435] pt-12">
+    <section id="project" class="w-[100wh] h-[620px] bg-[#000435] pt-12">
+
+        <h1 class="text-white text-[30px] font-semibold text-center">PROJECTS</h1>
 
         <div class="w-[1100px] h-[500px]  mx-32 mt-2  flex">
 
@@ -118,8 +183,6 @@
 
     <!-- Project 2 -->
     <section class="w-[100wh] h-[620px] bg-[#000435] pt-12">
-
-        <h1 class="text-white text-[30px] font-semibold text-center">PROJECTS</h1>
 
         <div class="w-[1100px] h-[500px]  mx-32 mt-2  flex">
 
@@ -217,7 +280,7 @@
     </section>
 
     <!-- Skills -->
-    <section class="w-[100wh] h-[600px] bg-[#000435]">
+    <section id="skills" class="w-[100wh] h-[600px] bg-[#000435]">
 
         <h1 class="text-white text-[30px] font-semibold text-center">SKILLS</h1>
 
@@ -272,26 +335,27 @@
     </section>
 
     <!-- Form -->
-    <section class="w-[100wh] h-[620px] bg-[#000435] pt-10">
+    <section id="contact" class="w-[100wh] h-[620px] bg-[#000435] pt-10">
 
         <div class="w-[100wh] h-[620px] bg-[#000084] pt-10 rounded-t-[150px]">
 
             <h1 class="text-white text-[30px] font-semibold text-center"> CONTACT</h1>
 
-            <div class="w-[1000px] h-[500px]  mx-44 mt-5 rounded-3xl flex">
+            <div class="w-[1000px] h-[500px]  mx-36 mt-5 rounded-3xl flex gap-2">
 
                 <div class="w-[580px] h-[400px] my-8">
 
                     <h1 class="text-white text-[35px] font-semibold">Drop Me a Message</h1>
 
-                    <p class="text-white text-[22px] pt-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        Voluptatibus id praesentium nobis
-                        delectus! Nisi recusandae, ipsum, assumenda asperiores voluptatum
+                    <p class="text-white text-[22px] pt-6">We would love to hear from you! Feel free to reach out if you
+                        have a question, or feedback or just want to look to collaborate or partner with us. We're open
+                        to new opportunities and would love to discuss how we can work together to create something
+                        amazing. Get in touch today!". and will respond as soon as possible."
+                        Your Message will be stored in Google sheet and We check every day
                     </p>
-
-                    <h1 class="text-white text-[22px] font-medium pt-6"></h1>
+                    
                     <h1 class="text-white text-[22px] font-medium pt-6">debjitpatra8521@gmail.com</h1>
-                    <h1 class="text-white text-[22px] font-medium pt-6">Bangalore, Karnataka</h1>
+                    <h1 class="text-white text-[22px] font-medium pt-5">Bangalore, Karnataka</h1>
 
 
                 </div>
